@@ -4,7 +4,7 @@ from django.template.defaultfilters import truncatewords
 from .models import Post
 
 class LatestPostsFeed(Feed):
-    title = 'My blog'
+    title = 'My Blog'
     link = '/blog/'
     description = 'New Posts of my blog.'
 
